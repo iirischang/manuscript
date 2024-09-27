@@ -1,56 +1,95 @@
 body{
-background-color: #E4E4E4;
-color:#242424;
-font-family: minion-pro;
-margin-top: 2em;
-margin-left: 4em;
-margin-right: 15em;
-font-size: 1.2em;
-font-weight: 400;
+	background-color: #252525;
+	color:#dadada;
+	font-family: minion-pro-subhead;
+	margin-top: 2em;
+	margin-left: 18em;
+	margin-right: 15em;
+	font-size: 1.2em;
+	font-weight: 100;
 }
 h1{
-font-family: Myanmar MN;
-color:#242424;
-font-size: 5em;
-line-height: 0.8em;
-margin-top: 0.2em;
+	font-family: Myanmar MN;
+	color:#dadada;
+	font-size: 4.5em;
+	line-height: 0.8em;
+	margin-top: 0.2em;
+}
+::selection {
+	background-color: #f84816;
+	color: #dadada;
 }
 .highlight{
 	font-family: Neonderthaw;
 	color: #f84816;
 }
 .h1-2{
-margin-left: 2em;
+	margin-left: 2em;
 }
 h3{
-font-size:1.2em;
-margin-left: 0.5em;
-margin-top: 0.5em;
+	font-size:1em;
+	margin-top: 0.5em;
 }
 .textbox{
-	font-family: minion-pro;
-	border: 1px dashed #242424;
-	color: #242424;
+	font-family: futura;
+	font-size: 0.8em;
+	font-style: italic;
+	font-weight: 300;
+	border: 1px dashed #dadada;
+	color: #dadada;
 	padding: 1em;
 	border-radius:0.5em;
 	margin-bottom: 2em;
 	margin-top: 1.5em;
 	width: 90%;
 }
+.textbox:hover{
+	border: 1px dashed #f84816;
+	border-radius:0.5em;
+}
+
 .author-link:hover{
-color:#f84816;
-text-decoration: underline;
+	color:#f84816;
+	text-decoration: underline;
 }
 .box-link{	
-text-decoration: underline;
+	text-decoration: underline;
 }
 .box-link:hover{
-color: #f84816;
+	color: #f84816;
 }
 .quote{
-	margin-top: 1em;
-	margin-bottom: 1em;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	margin-left: 3em;
 	font-family: "minion-pro-condensed-caption", serif;
-font-weight: 700;
-font-style: italic;
+	font-weight: 500;
+	font-style: italic;
+}
+.paragraph{
+	font-family: minion-pro-subhead;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	font-weight: 400;
+}
+.subtitle{
+	font-family: Myanmar MN;
+	color: #f84816;
+	font-size: 1.8em;
+	font-weight: 500;
+	margin-top: 2em;
+}
+.designer{
+	font-size: 1em;
+}
+.answer{
+	margin-bottom: 1em;
+	font-size: 1em;
+}
+.account{
+	font-size: 0.9em;
+}
+.account:hover{
+	color: #f84816;
+	text-decoration:underline;
 }
