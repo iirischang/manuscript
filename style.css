@@ -91,6 +91,7 @@ h3{
 .designer{
 	font-size: 1em;
 	font-weight: 600;
+	color: #f84816;
 }
 .answer{
 	margin-bottom: 1em;
@@ -100,6 +101,6 @@ h3{
 	font-size: 0.9em;
 }
 .account:hover{
-	color: #f84816;
+	color: #252525;
 	text-decoration:underline;
 }
