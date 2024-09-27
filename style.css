@@ -1,0 +1,55 @@
+body{
+background-color: #E4E4E4;
+color:#242424;
+font-family: minion-pro;
+margin-top: 2em;
+margin-left: 8em;
+margin-right: 15em;
+font-size: 1.2em;
+font-weight: 400;
+}
+h1{
+font-family: Myanmar MN;
+color:#242424;
+font-size: 6em;
+line-height: 0.8em;
+margin-top: 0.2em;
+}
+.highlight{
+	font-family: Neonderthaw;
+}
+.h1-2{
+margin-left: 2em;
+}
+h3{
+font-size:1.2em;
+margin-left: 0.5em;
+margin-top: 0.5em;
+}
+.textbox{
+	font-family: minion-pro;
+	border: 1px dashed #242424;
+	color: #242424;
+	padding: 1em;
+	border-radius:0.5em;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	width: 90%;
+}
+.author-link:hover{
+color:#f84816;
+text-decoration: underline;
+}
+.box-link{	
+text-decoration: underline;
+}
+.box-link:hover{
+color: #f84816;
+}
+.quote{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	font-family: "minion-pro-condensed-caption", serif;
+font-weight: 700;
+font-style: italic;
+}
