@@ -2,18 +2,119 @@ body{
 	background-color: #dadada;
 	color:#252525;
 	font-family: minion-pro-subhead;
-	margin-top: 2em;
-	margin-left: 18em;
-	margin-right: 15em;
+	margin-top: 3em;
+	margin-left: 5em;
+	margin-right: 5em;
 	font-size: 1.2em;
 	font-weight: 100;
 }
 h1{
-	font-family: Myanmar MN;
-	color:#252525;
-	font-size: 4.5em;
-	line-height: 0.8em;
-	margin-top: 0.2em;
+	line-height: 5em;
+	margin-left: 0em;
+}
+
+.word1{
+	font-family: Miss Fajardose;
+	font-size: 13em;
+	position: relative;
+    top: 0.02em;
+}
+.word2{
+	font-family: 'Micro 5';
+	font-size: 8em;
+	position: relative;
+    top: -0.08em;
+	font-weight: 300;
+}
+.word3{
+	font-family: Minion Pro;
+	font-size: 5.5em;
+	font-weight: 400;
+	position: relative;
+    top: 0.02em;
+	left: -0.07em;
+}
+.word4{
+	font-family: Minion Pro;
+	font-size: 6.2em;
+	font-weight: 600;
+	position: relative;
+    top: -0.1em;
+	left: -0.03em;
+}
+.word5{
+	font-family: Minion Pro;
+	font-size: 5em;
+	font-weight: 300;
+	position: relative;
+    top: -0.1em;	
+	left: -0.05em;
+}
+.word6{
+	font-family: Neonderthaw;
+	font-size: 7em;
+	position: relative;
+    top: -0.08em;
+	left: 0.15em;
+	font-weight: 300;
+}
+.word7{
+	font-family: Minion Pro;
+	font-size: 4em;
+	position: relative;
+    top: -0.08em;
+	left: 0.2em;
+	font-weight: 200;
+}
+.text1{
+	font-family: Minion Pro;
+	font-size: 6em;
+	position: relative;
+	left: 0.3em;
+	font-weight: 700;
+}
+.text2{
+	font-family: Miss Fajardose;
+	font-size: 11em;
+	position: relative;
+	left: 0.03em;
+	top: -0.03em;
+	color: #f84816;
+}
+.text3{
+	font-family: Neonderthaw;
+	font-size: 7em;
+	position: relative;
+	left:0.1em;
+	font-weight: 200;
+}
+.text4{
+	font-family: 'Micro 5';
+	font-size: 7em;
+	position: relative;
+	left:0.15em;
+	top: 0.02em;
+}
+.text5{
+	font-family: Minion Pro;
+	font-size: 6em;
+	position: relative;
+	left:0.1em;
+	font-weight: 500;	
+}
+.text6{
+	font-family: Miss Fajardose;
+	font-size: 11em;
+	position: relative;
+	left: 0.03em;
+	top: -0.03em;
+}
+.text7{
+	font-family: Miss Fajardose;
+	font-size: 12em;
+	position: relative;
+	left: 0.01em;
+	top: -0.01em;
 }
 ::selection {
 	background-color: #f84816;
@@ -23,15 +124,14 @@ h1{
 	font-family: Neonderthaw;
 	color: #f84816;
 }
-.h1-2{
-	margin-left: 2em;
-}
 h3{
-	font-size:1em;
-	margin-top: 0.7em;
+	font-size: 1em;
 	background-color: #f84816;
-	width: 29%;
 	padding-left: 0.2em;
+}
+.rightdate{
+	float: right;
+	padding-right: 0.2em;
 }
 .textbox{
 	font-family: futura;
