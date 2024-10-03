@@ -278,6 +278,7 @@ footer:hover{
 	color: #e1e1e1;
 }
 button{
+	position: fixed;
 	margin-right: 0em;
 	font-size: 2em;
 	z-index: 1000;
