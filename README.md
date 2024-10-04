@@ -1,4 +1,4 @@
-# Project 1: Manuscript
+## Project 1: Manuscript
 Hi, I’m Iris.
 This is the first project for the [Typography & Interaction class (2024-2025)](https://typography-interaction-2425.github.io/). 
   The project is based on the article **“Words as Material“** by Nicole Fenton, published in March 2015.
