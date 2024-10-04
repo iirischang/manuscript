@@ -11,6 +11,7 @@ body{
 	cursor: url('favicon.png'), auto;
 	z-index: 1;
 }
+
 h1{
 	line-height: 3.5em;
 	margin-left: 0em;
@@ -129,6 +130,18 @@ h1{
 	font-family: Neonderthaw;
 	color: #f84816;
 }
+.article,
+.response {
+    display: block;
+    color: #252525;
+    font-family: Futura;
+    margin-top: 0.2em;
+}
+.article:hover,
+.response:hover {
+	color: #f84816;
+	transform: translateX(-0.4em);
+}
 h3{
 	font-size: 1em;
 	background-color: #f84816;
@@ -137,9 +150,28 @@ h3{
 	z-index: 5;
 	font-family: Futura;
 }
+h3:hover{
+	background-color:#252525;
+	color: #e1e1e1;
+	text-decoration: underline;
+}
+li {
+    list-style: none;
+    float: none;
+    line-height: 1em;
+	display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 .rightdate{
 	float: right;
 	padding-right: 0.2em;
+}
+p{
+	font-family: minion-pro-subhead;
+	margin-top: 1.5em;
+	margin-bottom: 1.5em;
+	font-weight: 400;
 }
 blockquote{
 	font-family: futura;
@@ -156,36 +188,11 @@ blockquote{
 	box-shadow: 0 0.3em 0.3em rgba(0, 0, 0, 0.1);
 	border: 0.1em solid rgba(255, 255, 255, 0.2);
 }
-
-.author-link:hover{
-	color:#e1e1e1;
-	text-decoration: underline;
-}
 .box-link{	
 	text-decoration: underline;
 }
 .box-link:hover{
 	color: #f84816;
-}
-q{
-	display: inline-block;
-	margin-top: 1.6em;
-	margin-left: 3em;
-	margin-right: 2em;
-	font-size: 1.2em;
-	font-family: "minion-pro-condensed-caption", serif;
-	font-weight: 500;
-	font-style: italic;
-	color: #f84816;
-}
-p{
-	font-family: minion-pro-subhead;
-	margin-top: 1.5em;
-	margin-bottom: 1.5em;
-	font-weight: 400;
-}
-.no-margin{
-	margin: 0;
 }
 .subtitle{
 	font-family: Futura;
@@ -201,6 +208,31 @@ p{
 	font-style: italic;
 	font-weight: 600;
 	font-size: 1.3em;
+}
+.no-margin{
+	margin: 0;
+}
+q{
+	display: inline-block;
+	margin-top: 1.6em;
+	margin-left: 3em;
+	margin-right: 2em;
+	font-size: 1.2em;
+	font-family: "minion-pro-condensed-caption", serif;
+	font-weight: 500;
+	font-style: italic;
+	color: #f84816;
+}
+#interview{
+	padding-top: 1.3em;
+	padding-bottom: 1em;
+	padding-left: 0.5em;
+	padding-right: 4em;
+	border-radius:0.5em;
+	background-color: rgb(255, 255, 255, 0.2);
+	backdrop-filter: blur(1.25em);
+	box-shadow: 0 0.3em 0.3em rgba(0, 0, 0, 0.1);
+	border: 0.1em solid rgba(255, 255, 255, 0.2);	
 }
 .designer{
 	margin-left: 1.2em;
@@ -225,49 +257,16 @@ p{
 	color: #252525;
 	text-decoration:underline;
 }
-li {
-    list-style: none;
-    float: none;
-    line-height: 1em;
-	display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-}
-
-.article,
-.response {
-    display: block;
-    color: #252525;
-    font-family: Futura;
-    margin-top: 0.2em;
-}
-.article:hover,
-.response:hover {
-	color: #f84816;
-	transform: translateX(-0.4em);
-}
-#interview{
-	padding-top: 1.3em;
-	padding-bottom: 1em;
-	padding-left: 0.5em;
-	padding-right: 4em;
-	border-radius:0.5em;
-	background-color: rgb(255, 255, 255, 0.2);
-	backdrop-filter: blur(1.25em);
-	box-shadow: 0 0.3em 0.3em rgba(0, 0, 0, 0.1);
-	border: 0.1em solid rgba(255, 255, 255, 0.2);	
-}
 .responsetitle{
-	text-decoration:underline;
 	margin-bottom: -0.6em;
 	font-style: italic;
 	font-weight: 600;
 	font-size: 1.1em;
-	color:#f84816;
+	color:#252525;
 }
 footer{
 	font-family: futura;
-	font-size: 1.3em;
+	font-size: 1em;
 	font-weight: 300;
 	background-color: #f84816;
 	color: #252525;
@@ -277,9 +276,20 @@ footer:hover{
 	background-color:#252525;
 	color: #e1e1e1;
 }
-button{
-	position: fixed;
-	margin-right: 0em;
-	font-size: 2em;
-	z-index: 1000;
+.cr{
+	font-style: italic;
+	font-weight: 600;
+	font-size: 0.9em;
+	color:#f84816;
+}
+.btt{
+    display: block;
+    color: #252525;
+    font-family: Futura;
+    margin-top: 0.1em;
+	margin-bottom: 0.5em;	
+}
+.btt:hover{
+	color: #f84816;
+	transform: translateX(-0.4em);
 }
