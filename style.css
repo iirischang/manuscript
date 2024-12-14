@@ -1,7 +1,24 @@
+/* variable list */
+:root {
+	/* color */
+	--dary-gray: #252525;
+	--light-gray: #e1e1e1;
+	--orange: #f84816;
+
+	/* fonts */
+	--font-primary: Futura;
+	--font-paragraph: minion-pro-subhead;
+	--font-title1: Miss Fajardose;
+	--font-title2: Minion Pro;
+	--font-title3: Neonderthaw;
+	--font-title4: 'Micro 5';
+
+}
+
 body {
-	background-color: #e1e1e1;
-	color:#252525;
-	font-family: minion-pro-subhead;
+	background-color: var(--light-gray);
+	color: var(--dary-gray);
+	/* font-family: minion-pro-subhead; */
 	margin-top: 3.5rem;
 	margin-right: 23rem;
 	margin-left: 23rem;
@@ -45,68 +62,61 @@ h3 {
 }
 
 .word1{
-	font-family: Miss Fajardose;
+	font-family: var(--font-title1);
 	font-size: 16rem;
 	position: relative;
 	transform: translateY(10px);
-	/* transform: translate(-20px, 10px); */
 }
 
 .word2 {
-	font-family: 'Micro 5';
+	font-family: var(--font-title3);
 	font-size: 9.5rem;
 	position: relative;
 	margin-left: -3rem;
-	/* transform: translate(-30px, 10px); */
 	font-weight: 300;
 }
 
 .word3 {
-	font-family: Minion Pro;
+	font-family: var(--font-title2);
 	font-size: 6.5rem;
 	font-weight: 400;
 	position: relative;
 	margin-left: -4rem;
 	transform: translateY(20px);
-	/* transform: translate(-60px, 30px); */
 }
 
 .word4 {
-	font-family: Minion Pro;
+	font-family: var(--font-title2);
 	font-size: 6.5rem;
 	font-weight: 500;
 	position: relative;
-	/* transform: translate(-75px, 20px); */
 	color: #f84816;
 	margin-left: -5rem;
 }
 
 .word5 {
-	font-family: Minion Pro;
+	font-family: var(--font-title2);
 	font-size: 6rem;
 	font-weight: 300;
 	position: relative;
 	margin-left: -5rem;
 	transform: translateY(10px);
-	/* transform: translate(-95px, 30px); */
 }
 
 .word6 {
-	font-family: Neonderthaw;
+	font-family: var(--font-title3);
 	font-size: 6.5em;
 	position: relative;
 	margin-left: -3rem;
-	/* transform: translate(-90px, 5px); */
 	font-weight: 300;
 }
 
 .word7 {
-	font-family: Minion Pro;
+	font-family: var(--font-title2);
 	font-size: 5em;
 	position: relative;
 	margin-left: -3.7rem;
 	transform: translateY(25px);
-	/* transform: translate(-110px, 30px); */
 	font-weight: 200;
 }
 
@@ -119,22 +129,22 @@ h3 {
 }
 
 .text1 {
-	font-family: Minion Pro;
+	font-family: var(--font-title2);
 	font-size: 6em;
 	position: relative;
 	transform: translateY(25px);
 }
 
 .text2 {
-	font-family: Miss Fajardose;
+	font-family: var(--font-title1) ;
 	font-size: 11rem;
 	position: relative;
 	margin-left: -6.5rem;
-	color: #f84816;
+	color: var(--orange);
 }
 
 .text3 {
-	font-family: Neonderthaw;
+	font-family: var(--font-title3);
 	font-size: 7.5rem;
 	position: relative;
 	font-weight: 200;
@@ -142,7 +152,7 @@ h3 {
 }
 
 .text4 {
-	font-family: 'Micro 5';
+	font-family: var(--font-title4);
 	font-size: 7rem;
 	position: relative;
 	margin-left: -10rem;
@@ -150,7 +160,7 @@ h3 {
 }
 
 .text5 {
-	font-family: Minion Pro;
+	font-family: var(--font-title2);
 	font-size: 6rem;
 	position: relative;
 	margin-left: -13rem;
@@ -159,14 +169,14 @@ h3 {
 }
 
 .text6 {
-	font-family: Miss Fajardose;
+	font-family: var(--font-title1);
 	font-size: 11rem;
 	position: relative;
 	margin-left: -16rem;
 }
 
 .text7 {
-	font-family: Miss Fajardose;
+	font-family: var(--font-title1);
 	font-size: 12rem;
 	margin-left: -20rem;
 	transform: translateY(-2px);
@@ -175,42 +185,42 @@ h3 {
 }
 
 ::selection {
-	background-color: #f84816;
-	color: #e1e1e1;
+	background-color: var(--orange);
+	color: var(--light-gray);
 }
 
 .highlight {
-	font-family: Neonderthaw;
-	color: #f84816;
+	font-family: var(--font-title3);
+	color: var(--orange);
 }
 
 .article,
 .response {
 	display: block;
-	color: #252525;
-	font-family: Futura;
+	color: var(--dary-gray);
+	font-family: var(--font-primary);
 	margin-top: 0.2rem;
 	text-align: right;
 }
 
 .article:hover,
 .response:hover {
-	color: #f84816;
+	color: var(--orange);
 	transform: translateX(-0.4rem);
 }
 
 h3 {
 	font-size: 1rem;
-	background-color: #f84816;
+	background-color: var(--orange);
 	padding-left: 0.2rem;
 	position: relative;
 	z-index: 5;
-	font-family: Futura;
+	font-family: var(--font-primary);
 }
 
 h3:hover {
-	background-color:#252525;
-	color: #e1e1e1;
+	background-color: var(--dary-gray);
+	color: var(--light-gray);
 	text-decoration: underline;
 }
 
@@ -229,7 +239,7 @@ li {
 }
 
 p {
-	font-family: minion-pro-subhead;
+	font-family: var(--font-paragraph);
 	font-size: 1.2rem;
 	margin-top: 1.5rem;
 	margin-bottom: 1.5rem;
@@ -237,7 +247,7 @@ p {
 }
 
 blockquote {
-	font-family: futura;
+	font-family: var(--font-primary);
 	font-size: 1rem;
 	font-style: italic;
 	font-weight: 300;
@@ -257,7 +267,7 @@ blockquote {
 }
 
 .box-link:hover {
-	color: #f84816;
+	color: var(--orange);
 }
 
 .question {
@@ -281,7 +291,7 @@ q {
 	font-family: "minion-pro-condensed-caption", serif;
 	font-weight: 500;
 	font-style: italic;
-	color: #f84816;
+	color: var(--orange);
 }
 
 #interview {
@@ -300,7 +310,7 @@ q {
 	margin-left: 1.2rem;
 	font-size: 1rem;
 	font-weight: 400;
-	color: #f84816;
+	color: var(--orange);
 	font-family: futura;
 }
 .answer{
@@ -318,14 +328,14 @@ q {
 }
 
 .account:hover {
-	color: #252525;
+	color: var(--dary-gray);
 	text-decoration:underline;
 }
 
 .point {
-	font-family: Minion Pro;
+	font-family: var(--font-title2);
 	font-size: 1.5rem;
-	color: #252525;
+	color: var(--dary-gray);
 	margin-top: 0.35rem;
 	margin-bottom: 0.35rem;
 	font-weight: 500;
@@ -345,11 +355,11 @@ q {
 }
 
 .point-t {
-	font-size: 1.5rrem;
+	font-size: 1.5rem;
 	margin-bottom: -1rem;
 	font-weight: 400;
-	color: #f84816;
-	font-family: futura;	
+	color: var(--orange);
+	font-family: var(--font-primary);	
 }
 
 .responsetitle {
@@ -357,54 +367,54 @@ q {
 	font-style: italic;
 	font-weight: 600;
 	font-size: 1.1rem;
-	color:#252525;
+	color: var(--dary-gray);
 }
 footer {
-	font-family: futura;
+	font-family: var(--font-primary);
 	font-size: 1.5rem;
 	font-weight: 300;
-	background-color: #f84816;
-	color: #252525;
+	background-color: var(--orange);
+	color: var(--dary-gray);
 	text-align: center;
 }
 
 footer:hover {
-	background-color:#252525;
-	color: #e1e1e1;
+	background-color: var(--dary-gray);
+	color: var(--light-gray);
 }
 
 .cr {
 	font-style: italic;
 	font-weight: 600;
 	font-size: 1.2rem;
-	color:#f84816;
+	color: var(--orange);
 }
 
 .btt {
 	font-size: 1.2rem;
 	display: block;
-	color: #252525;
+	color: var(--dary-gray);
 	text-align: right;
-	font-family: Futura;
+	font-family: var(--font-primary);
 	margin-top: 0.1rem;
 	margin-bottom: 0.5rem;
 	}
 
 .btt:hover {
-	color: #f84816;
+	color: var(--orange);
 	transform: translateX(-0.4rem);
 }
 
 .subtitle {
-	font-family: futura;
+	font-family: var(--font-primary);
 	text-transform: uppercase;
 	font-size: 1.2rem;
 	font-style: italic;
 	font-weight: 300;
-	color: #f84816;
+	color: var(--orange);
 	padding: 1rem;
 	border-radius:0.5rem;
-	background-color: #252525;
+	background-color: var(--dary-gray);
 	backdrop-filter: blur(1.25rem);
 	box-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.1);
 	border: 0.05rem solid #717171;
@@ -413,7 +423,6 @@ footer:hover {
 }
 
 
-/* All Media queries */
 /* Mobile Media Query */
 
 @media(max-width: 1200px) {
@@ -431,7 +440,6 @@ header {
 
 h1{
 	line-height: 3.5rem;
-	/* margin-left: 0rem; */
 	font-weight: 100;
 }
 
@@ -447,7 +455,7 @@ h1{
 .mobiletitle, .mobiletitle2 {
 	display: block;
 	font-size: 9rem;
-	font-family: futura;
+	font-family: var(--font-primary);
 	text-transform: uppercase;
 	margin-top: 3rem;
 }
@@ -461,11 +469,11 @@ h1{
 
 h3 {
 	font-size: 2.5rem;
-	background-color: #f84816;
+	background-color: var(--orange);
 	padding-left: 0.2rem;
 	position: relative;
 	z-index: 5;
-	font-family: Futura;
+	font-family: var(--font-primary);
 }
 
 .article,
