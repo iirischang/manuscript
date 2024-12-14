@@ -136,7 +136,7 @@ h3 {
 	font-family: Minion Pro;
 	font-size: 6em;
 	position: relative;
-	left:0.1em;
+	transform: translate(-125px, 20px);
 	font-weight: 500;	
 }
 
@@ -144,16 +144,14 @@ h3 {
 	font-family: Miss Fajardose;
 	font-size: 11em;
 	position: relative;
-	left: 0.03em;
-	top: -0.03em;
+	transform: translate(-165px, -10px);
 }
 
 .text7 {
 	font-family: Miss Fajardose;
 	font-size: 12em;
 	position: relative;
-	left: 0.01em;
-	top: -0.01em;
+	transform: translate(-210px, -12px);
 	z-index: 7;
 }
 
