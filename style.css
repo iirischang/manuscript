@@ -308,7 +308,7 @@ q {
 	font-size: 1rem;
 	font-weight: 400;
 	color: var(--orange);
-	font-family: futura;
+	font-family: var(--font-primary);
 }
 .answer{
 	margin-left: 3rem;
