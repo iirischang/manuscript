@@ -18,20 +18,17 @@
 body {
 	background-color: var(--light-gray);
 	color: var(--dary-gray);
-	/* font-family: minion-pro-subhead; */
 	margin-top: 3.5rem;
 	margin-right: 23rem;
 	margin-left: 23rem;
 	justify-content: center;
 	margin-bottom: 2rem;
-	/* font-size: 1.2rem; */
 	cursor: url('favicon.png'), auto;
 	z-index: 1;
 }
 
 h1{
 	line-height: 3.5rem;
-	/* margin-left: 0rem; */
 	font-size: 1.2rem;
 	font-weight: 100;
 }
